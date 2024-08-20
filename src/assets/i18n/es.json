@@ -13,5 +13,10 @@
         "title": "Idioma",
         "spanish": "Español",
         "english": "Inglés"
-     }
+    },
+    "BUTTONS": {
+        "accept": "Aceptar",
+        "cancel": "Cancelar"
+    }
+     
 }
