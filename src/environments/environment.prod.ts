@@ -3,5 +3,9 @@ export const environment = {
   
   baseUrl: 'https://my-hero-academia-episodes.p.rapidapi.com/',
 
-  seasons: 'seasons'
+  seasons: 'seasons',
+
+  episodes_by_season: 'episodes_by_season/',
+
+  episode: 'episode/'
 };

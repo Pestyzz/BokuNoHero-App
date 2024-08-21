@@ -8,12 +8,12 @@ ion-content {
 
 .img {
     border-radius: 150px;
+    //width: 90vw;
 }
 
 .glass-content {
     /* From https://css.glass */
     background: rgba(217, 241, 194, 0.21);
-    border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);

@@ -12,4 +12,12 @@ export class BokuNoHeroService {
   getSeasons() {
     return this.http.get(environment.baseUrl + environment.seasons)
   }
+
+  getEpisodesBySeason(id: number) {
+    return this.http.get(environment.baseUrl + environment.episodes_by_season + id)
+  }
+
+  getEpisodesByNumber(number: number) {
+    return this.http.get(environment.baseUrl + environment.episode + number)
+  }
 }
